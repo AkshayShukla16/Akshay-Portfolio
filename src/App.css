@@ -251,10 +251,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner h1 {
   font-size: 50px;
-  font-weight: 650;
+  font-weight:650;
   letter-spacing: 0.8px;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: block;
 }
 .banner p {
@@ -287,37 +287,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @keyframes updown {
     0% {
-        transform: translateX(-250px);
+        transform: translateX(-70px);  
     }
     10% {
         transform: translateY(-500px);
     }
     20% {
-      transform: translateX(-800px);
+      transform: translateX(-500px);
     }
+   
     30% {
         transform: rotate(70deg);
   }
   40% {
-    transform: translateY(-70px);
-}
+    transform: translateY(-90px);
+  }
    50% {
-    transform: translateX(-70px);
+    transform: translateX(-20px);
     }
+   
     60% {
       transform: rotate(-40deg);
       }
-    70% {
+   70% {
       transform: translateX(200px);
       }
       80% {
-        transform: translateY(200px);
+        transform: translateY(70px);
         }
         90% {
           transform: rotate(300deg);
           }
+          
     100% {
-        transform: translateY(400px);
+        transform: translateX(70px);
     }
 }
 .txt-rotate > .wrap {
@@ -518,7 +521,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact {
   background: linear-gradient(90.21deg, #100128c6 -5.91%, #edef43 111.58%);
   padding: 60px 0 200px 0;
-  height: 90vh;
+  height: auto;
 }
 .contact img {
   width: 92%;
