@@ -36,7 +36,7 @@ function Banner() {
         }
     }
 
-    const toRotate= [ "BTech Undergrade","Programmer","Content-Creator", "Web-developer", "Web-designer", "Thumbnail-designer"];
+   const toRotate= [ "BTech", "Undergrade", "Programmer","Blogger","Creative", "Web-dev", "designer"];
     return(
         <section className="banner" id="home">
             <Container>
