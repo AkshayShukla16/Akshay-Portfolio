@@ -60,13 +60,13 @@ function Projects() {
                             <Tab.Container id='projects-tabs' defaultActiveKey="first">
                             <Nav variant="tabs">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">Tab One</Nav.Link>
+                                    <Nav.Link eventKey="first">Tab 1</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                                    <Nav.Link eventKey="second">Tab 2</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">Tab Three</Nav.Link>
+                                    <Nav.Link eventKey="third">Tab 3</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content className="listTab">
