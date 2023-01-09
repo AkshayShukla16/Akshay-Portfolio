@@ -8,7 +8,7 @@ function Banner() {
     const[remove, setRemove]= useState(false);
     const[text,setText]= useState('');
     const[trans,setTrans]= useState(200-Math.random()*100)
-    const time= 300;
+    const time= 500;
 
     useEffect(()=>{
         const ticker= setInterval(()=>{
@@ -36,14 +36,15 @@ function Banner() {
         }
     }
 
-   const toRotate= [ "BTech", "Undergrade", "Programmer","Blogger","Creative", "Web-dev", "designer"];
+    const toRotate= [ "BTech", "Undergrade", "Programmer","Blogger","Creative", "Web-dev", "designer"];
     return(
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-centre">
                    <Col xs-={12} md={6} xl={7}>
                      <span className="tagline">Welcome to my portfolio</span>
-                     <h1>Hi! I am Akshay Shukla<br /><span className="wrap">{text}</span></h1>
+                     <h1>Hi! I am Akshay Shukla<br /></h1>
+                     <h1>☞<span className="wrap">{text}</span></h1>
                      <p>Pursuing BTech In Computer Engineering</p>
                      <button><a href="#bloglink" target='_blank'>Visit to my blog</a></button>
                    </Col>
